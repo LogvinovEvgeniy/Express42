@@ -9,7 +9,7 @@ services:
       MYSQL_ROOT_PASSWORD: jmandjh#45svH
       MYSQL_DATABASE: redmine
       MYSQL_USER: redmine
-      MYSQL_PASSWORD: DO2GY6Re8
+      MYSQL_PASSWORD: Jr572Hjwekj7
     volumes:
       - redmine:/var/lib/mysql
 
@@ -27,7 +27,7 @@ services:
     restart: always
     environment:
       REDMINE_DB_MYSQL: db
-      REDMINE_DB_PASSWORD: DO2GY6Re8
+      REDMINE_DB_PASSWORD: r572Hjwekj7
       REDMINE_DB_DATABASE: redmine
       REDMINE_DB_USERNAME: redmine
     depends_on:
